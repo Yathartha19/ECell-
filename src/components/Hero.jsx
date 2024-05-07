@@ -40,7 +40,7 @@ const Hero = () => {
       </div>
     </div>
 
-    <div id="content" className="flex justify-center w-full h-screen bg-[url('./images/supra.png')] bg-cover bg-center">
+    <div id="content" className="flex justify-center w-full h-screen" style={{ backgroundImage: "url('./images/supra.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="flex flex-col mt-40 items-center">
           <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold">ABOUT US</h1>
           <p className="flex mt-10 md:mt-16 ml-24 md:ml-40 mr-24 md:mr-40 text-xl lg:text-2xl xl:text-3xl font-thin text-center">
