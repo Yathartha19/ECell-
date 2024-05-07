@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="flex flex-col mt-40 items-center">
           <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold">ABOUT US</h1>
           <p className="flex mt-10 md:mt-16 ml-24 md:ml-40 mr-24 md:mr-40 text-xl lg:text-2xl xl:text-3xl font-thin text-center">
-            E-Cell, IIT Kanpur aims to induce an entrepreneurial mindset into the students and air an<br/>
+            E-Cell, PES University aims to induce an entrepreneurial mindset into the students and air an<br/>
             innovative streak in them. We are here to water the ‘Ideas’ in the bud and help them bloom
             into impactful endeavors through networking student enterprises from campus to incubators,
             seeding funds and angel investors to transform the newly proposed ideas into successful start-ups.
