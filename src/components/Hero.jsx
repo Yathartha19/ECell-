@@ -31,8 +31,7 @@ const Hero = () => {
     <>
 
     <div id="hero" className="hero min-h-screen">
-      <div className="hero-overlay flex justify-center items-center bg-[url('./images/zuhahaha.png')] bg-cover bg-center h-screen">
-      </div>
+<div className="hero-overlay flex justify-center items-center h-screen" style={{ backgroundImage: "url('./images/zuhahaha.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>      </div>
       <div className="text-center">
       <h1 className=" mb-6 text-4xl md:hidden font-bold text-">E - Cell</h1>
       <h1 className=" mb-6 hidden md:flex text-6xl lg:text-7xl xl:text-8xl font-bold">Entrepreneurship Cell</h1>
