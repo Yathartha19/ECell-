@@ -1,0 +1,66 @@
+.blck {
+    color: #A7ACBB;
+}
+
+.wht {
+    color: #fff;
+}
+
+.graybg {
+    background-color: #111111;
+}
+
+body {
+    background-color: black;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.appear {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes opening {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.opening {
+    animation: opening 0.8s linear;
+}
+
+@keyframes opening {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.openingnav {
+    animation: opening 1.6s linear;
+}
+
