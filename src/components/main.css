@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.font {
+    font-family: 'Caveat', cursive;
+}
+
 .blck {
     color: #A7ACBB;
 }
@@ -50,7 +56,7 @@ body {
     0% {
         opacity: 0;
     }
-    50% {
+    56% {
         opacity: 0;
         transform: translateY(5%);
     }
@@ -61,6 +67,5 @@ body {
 }
 
 .openingnav {
-    animation: opening 1.6s linear;
+    animation: opening 1.8s linear;
 }
-
