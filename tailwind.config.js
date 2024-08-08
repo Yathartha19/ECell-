@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cursive: ['Caveat', 'cursive'],
+      },
+    },
     screens: {
       'low': '320px',
       'sm': '640px',
